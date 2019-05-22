@@ -1,0 +1,234 @@
+/* Project Mobile Layout
+*  Jo Miranda
+*/
+
+@media screen and (max-width: 699px){
+
+body {
+	background-color: #FFFFF6;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(../img/jumbotronbackground.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+.p76-top {
+	top:0;
+	background-color: #E82C0C;
+	overflow: hidden;
+	position: fixed;
+	font-size: 10px;
+}
+
+.p76-top a {
+	text-decoration: none;
+  	color: #C1E5FF;
+  	display: block;
+  	transition: .3s background-color;
+}
+ .p76-bar {
+ 	padding:8px 16px;
+	float:left;
+}
+
+.p76-bar-item {
+	padding:8px 16px;
+	float:left;
+	width:auto;
+	border:none;
+	display:block;
+	outline:0
+}
+
+.p76-right {
+	padding:8px 16px;
+	float:right;
+}
+
+.p76-xxlarge {
+	font-size:36px;
+}
+
+.p76-image {
+	width: 700px;
+	height: 350px;
+}
+
+.p76-image2 {
+	max-width:100%;
+	height:auto;
+}
+
+
+.p76-display-bottomleft {
+	position:absolute;
+	left:0;
+	bottom:0;
+}
+
+.p76-content {
+	max-width:980px;
+	margin:auto
+}
+
+.p76-col {
+	width:100%;
+}
+
+
+.p76-padding-large {
+	padding:12px 24px;
+
+}
+
+.p76-opacity {
+	opacity:0.60;
+}
+
+.p76-center {
+	text-align:center;
+	font-family: 'Courgette', cursive;
+	color: #000000;
+}
+
+.p76-center2 {
+	text-align:center;
+	font-family: 'Courgette', cursive;
+}
+
+.p76-large {
+	text-align:center;
+	font-size:18px
+	
+}
+
+.m6 {
+	width:49.99999%;
+}
+
+.p76-text-red {
+	color: #E82C0C;
+	opacity:0.60;
+}
+
+h3 {
+	color: #546FFF;
+}
+
+.video {
+	text-align:center;
+	padding-bottom: percentage((1 / 1));
+}
+
+.top {
+	float:top;
+	padding: 0 20px 20px 0;
+	max-width:100%;
+	height:auto;
+}
+
+li {
+	color:#E82C0C;
+}
+
+.footer {
+	bottom:0;
+	display:block;
+	padding: 0 20px 20px 0;
+}
+
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #C1E5FF;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #C1E5FF;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+}
+
+
